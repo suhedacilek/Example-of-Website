@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: #ffc907;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  border: 4px solid #334858;
+  width: 1000px;
+  margin-top: 40px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.header {
+  background: #2c5770;
+  color: white;
+  height: 20vh;
+  font-family: 'Lobster', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: 3px solid #334858;
+}
+
+.title {
+  font-size: 50px;
+}
+
+
+
+.main {
+  color: white;
+  display: flex;
+}
+
+.sidebar {
+  background: #051736;
+  color: white;
+  flex: 1;
+  border-right: 3px solid #334858;
+  border-bottom-left-radius: 15px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu li {
+  text-align: center;
+  padding: 15px;
+}
+
+.menu li:hover {
+  background-color: #39eafd;
+  font-size: 17px;
+}
+
+.menu li:last-child:hover {
+  border-bottom-left-radius: 15px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  background: #e0fbff;
+  flex: 3;
+  color: #334858;
+  padding: 20px;
+  border-bottom-right-radius: 15px;
+  
+}
+
+.kayit-formu {
+  padding: 40px;
+}
+
+.kaydet-butonu {
+  background-color: #00a98f;
+  color: white;
+  padding: 8px;
+  border: 0;
+  border-radius: 10px;
+  margin-left: 175px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.yorum-butonu{
+  background-color: #00a98f;
+  color: white;
+  padding: 8px;
+  border: 0;
+  border-radius: 10px;
+  margin-left: 175px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+input {
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 5px;
+  outline: none;
+}
+
+textarea {
+  border-radius: 10px;
+  font-family: Arial;
+  width: 195px;
+  outline: none;
+  padding: 5px;
+}
+
+
+.comment {
+  border-radius: 10px;
+  font-family: Arial;
+  width: 500px;
+  outline: none;
+  padding: 5px;
+}
+
+
+select {
+  border-radius: 10px;
+  outline: none;
+}
+
+.kisiler,
+.fotograflar,
+.videolar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  border-radius: 15px;
+ 
+}
+
+.kisi,
+.fotograf,
+.video {
+  border: 2px solid #334858;
+  border-radius: 15px;
+  margin: 5px;
+}
+

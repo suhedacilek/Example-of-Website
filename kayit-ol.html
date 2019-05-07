@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mezuniyet</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster|Roboto:400,700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="title">Mezuniyet</h1>
+        <p class="subtitle">
+          Kayıt Ol
+        </p>
+      </div>
+      <div class="main">
+        <div class="sidebar">
+          <ul class="menu">
+            <li><a href="/">Anasayfa</a></li>
+            <li><a href="/forum.html">Forum</a></li>
+            <li><a href="/kisiler.html">Kişiler</a></li>
+            <li><a href="/fotograflar.html">Fotoğraflar</a></li>
+            <li><a href="/videolar.html">Videolar</a></li>
+            <li>
+              <a href="/kim-nerede-ne-yapiyor.html">Kim, Nerede, Ne Yapıyor?</a>
+            </li>
+            <li>
+              <a href="/harita.html">Harita</a>
+            </li>
+            <li><a href="/kayit-ol.html">Kayıt Ol</a></li>
+          </ul>
+        </div>
+        <div class="content">
+          <form action="#" method="POST" class="kayit-formu">
+            <fieldset>
+              <legend><b>Kayıt Formu</b></legend>
+              <table style="margin-top: 20px">
+                <tr>
+                  <td><b>*Adınız:</b></td>
+                  <td>
+                    <input
+                      type="text"
+                      placeholder="Adı giriniz..."
+                      name="isim"
+                      style="width: 195px;"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 5px"></td>
+                </tr>
+                <tr>
+                  <td><b>*Soyadınız:</b></td>
+                  <td>
+                    <input
+                      type="text"
+                      placeholder="Soyadı giriniz..."
+                      name="soyisim"
+                      style="width: 195px;"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 5px"></td>
+                </tr>
+                <tr>
+                  <td><b>*Yaşınız:</b></td>
+                  <td>
+                    <input
+                      type="number"
+                      placeholder="Yaşınız..."
+                      name="yas"
+                      style="width: 195px;"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 5px"></td>
+                </tr>
+                <tr>
+                  <td><b>*Cinsiyetiniz:</b></td>
+                  <td>
+                    <input type="radio" name="cinsiyet" value="Erkek" /> Erkek
+                    <input
+                      type="radio"
+                      name="cinsiyet"
+                      value="Kız"
+                      style="margin-left: 55px"
+                    />
+                    Kadın
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 5px"></td>
+                </tr>
+                <tr>
+                  <td><b>*Okuduğunuz Lise:</b></td>
+                  <td>
+                    <input
+                      type="text"
+                      name="lise"
+                      placeholder="Okuduğunuz lise..."
+                      style="width: 195px;"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 10px"></td>
+                </tr>
+                <tr>
+                  <td><b>*Mezuniyet Yılınız:</b></td>
+                  <td>
+                    <select name="yil1">
+                      <option>2005</option>
+                      <option>2006</option>
+                      <option>2007</option>
+                      <option>2008</option>
+                      <option>2009</option>
+                      <option>2010</option>
+                      <option>2011</option>
+                      <option>2012</option>
+                      <option>2013</option>
+                      <option>2014</option>
+                      <option>2015</option>
+                      <option>2016</option>
+                      <option>2017</option>
+                      <option>2018</option>
+                      <option>2019</option>
+                      <option>2020</option>
+                      <option>2021</option>
+                      <option>2022</option>
+                      <option>2023</option>
+                      <option>2024</option>
+                      <option>2025</option>
+                    </select>
+                    <select style="margin-left: 80px;" name="yil2">
+                      <option>-</option>
+                      <option>2005</option>
+                      <option>2006</option>
+                      <option>2007</option>
+                      <option>2008</option>
+                      <option>2009</option>
+                      <option>2010</option>
+                      <option>2011</option>
+                      <option>2012</option>
+                      <option>2013</option>
+                      <option>2014</option>
+                      <option>2015</option>
+                      <option>2016</option>
+                      <option>2017</option>
+                      <option>2018</option>
+                      <option>2019</option>
+                      <option>2020</option>
+                      <option>2021</option>
+                      <option>2022</option>
+                      <option>2023</option>
+                      <option>2024</option>
+                      <option>2025</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 5px"></td>
+                </tr>
+                <tr>
+                  <td><b>Okuduğunuz Üniversite:</b></td>
+                  <td>
+                    <input
+                      type="text"
+                      placeholder="Okuduğunuz Üniversiteniz..."
+                      name="uni"
+                      style="width: 195px;"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 5px"></td>
+                </tr>
+                <tr>
+                  <td><b>Bölümünüz:</b></td>
+                  <td>
+                    <input
+                      type="text"
+                      placeholder="Bölümünüzü giriniz..."
+                      name="bolum"
+                      style="width: 195px;"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 5px"></td>
+                </tr>
+                <tr>
+                  <td><b>*Mesleğiniz:</b></td>
+                  <td>
+                    <input
+                      type="text"
+                      name="meslek"
+                      placeholder="Mesleğiniz..."
+                      style="width: 195px;"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 5px"></td>
+                </tr>
+                <tr>
+                  <td><b>*Mail Adresiniz:</b></td>
+                  <td>
+                    <input
+                      type="text"
+                      name="mail"
+                      placeholder="Mail adresiniz..."
+                      style="width: 195px;"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 5px"></td> 
+                </tr>
+                <tr>
+                  <td><b>Adres:</b></td>
+                  <td>
+                    <textarea
+                      rows="8"
+                      cols="25"
+                      name="adres"
+                      placeholder=" Adresinizi giriniz..."
+                    ></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 5px"></td>
+                </tr>
+                <tr>
+                  <td rowspan="6"><b>Hobiler:</b></td>
+                  <td>
+                    <input type="checkbox" name="hobi1" value="Spor Yapmak" />
+                    Spor Yapmak
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="checkbox"
+                      name="hobi2"
+                      value="Müzik Dinlemek"
+                    />
+                    Müzik Dinlemek
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox" name="hobi3" value="Gezmek" /> Gezmek
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="checkbox"
+                      name="hobi4"
+                      value="Bisiklet Sürmek"
+                    />
+                    Bisiklet Sürmek
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox" name="hobi5" value="Kitap Okumak" />
+                    Kitap Okumak
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="checkbox" name="hobi6" value="Diğer" /> Diğer
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 5px"></td>
+                </tr>
+                <tr>
+                  <td><b>*Şifreniz:</b></td>
+                  <td>
+                    <input type="password" name="ps1" style="width: 195px;" />
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 5px"></td>
+                </tr>
+                <tr>
+                  <td><b>*Şifreyi Tekrar Giriniz:</b></td>
+                  <td>
+                    <b
+                      ><input type="password" name="ps" style="width: 195px;"
+                    /></b>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="height: 5px"></td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <input type="submit" value="Kaydet" class="kaydet-butonu" />
+                  </td>
+                </tr>
+              </table>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
